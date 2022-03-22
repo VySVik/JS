@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pok.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="cont">
+        <!---Div contenedor-->
+
+        <div class="contI">
+            <!---DIV I-->
+            <div class="cont_IA">
+                <!---divi IA C-->
+         
+            </div>
+            <div class="cont_marco_int" id="marco" >
+                <!----contenedor marco para imagen-->
+                <input type="text" value ="" name="Nombre o Id" class="in" id="name">
+                <div id="img">
+                    <!---divi IM C-->
+                
+                </div>
+            </div>
+
+
+            <div class="cont_IB">
+                <!---divi IB C-->
+
+
+                <div class="cont_IBI">
+                    <!---divi IBI F-->
+                    <div class="c">
+                        <div>
+                            <button class="u" onclick="U()" id="up">U</button>
+                        </div>
+                    </div>
+                    <div class="cc">
+                        <div>
+                            <button class="l" onclick="fetchLD()" id="le">L</button>
+                        </div>
+                        <div>
+                            <button class="lr" > </button>
+                        </div>
+                        <div>
+                            <button class="r" onclick="fetchUR()" id="ri">R</button>
+                        </div>
+                    </div>
+                    <div class="ccc">
+                        <button class="d" onclick="fetchLD()" id="do">D</button>
+                    </div>
+                   
+                   
+                </div>
+
+                <div class="cont_IBM">
+                    <!---divi IBM F-->
+                    <button class="linea"></button>
+                    <button class="linea"></button>
+                    <div class="linea">
+                        <p style="vertical-align: text-top;">select start</p>
+                    </div>
+                    <div class="espacio">
+                        <button> </button>
+                        <button> </button>
+                    </div>
+                    <button class="linea"></button>
+
+                </div>
+
+                <div class="cont_IBD">
+                    <!---divi IBD F-->
+                    <button class="invisible"></button>
+
+                    <button class="nintendo">Nintendo</button>
+
+                    <div class="invisible">
+
+                    </div>
+
+                    <div class="espacio2">
+                        <div class="cuadro">
+                            <button onclick="fetchpok()">Chg</button>
+                        </div>
+                        <div class="cuadro">
+                            <button onclick="clr()">Clr</button>
+                        </div>
+                    </div>
+                    <div class="ayb">
+                        <p>A <span style="color: black;" >............</span> B</p>
+                    </div>
+                   
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="contenedorD" id="D">
+            <!---DIV D-->
+            <section class="nom" id="nom">
+        
+            </section>
+            <article class="gral" id="gral">
+
+            </article>
+            <section class="sym" id="sym">
+                <article class="stat" id="stat"></article>
+                <article class="mov" id="mov"></article>
+            </section>
+        </div>
+
+    </div>
+</body>
+<footer>
+    <script src="./pok.js"></script>
+</footer>
+
+</html>

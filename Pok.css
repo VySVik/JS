@@ -1,0 +1,361 @@
+
+.cont{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.imgn{
+   
+    width: 550px;
+    height: 310px; 
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;   
+}
+.contI{
+    display: flex;
+    flex-direction: column;
+    background-color:grey;
+    border-radius: 30px;
+    align-items: center;
+    border-style: solid;
+}
+
+.ola{
+    background-color:gray;
+}
+.in{
+   
+    text-align: center;
+    border: none;
+}
+
+.start{
+    background-color: green;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: black;
+    color:aliceblue;
+    margin-right: 10px;
+}
+
+.pause{
+    background-color:yellow;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: black;
+    margin-right: 10px;
+}
+.stop{
+    background-color: red;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: black;
+    margin-right: 10px;
+}
+
+.cont_IA{ /* Ola*/
+    display: flex;
+    flex-direction: row;
+    background-color:gray;
+    padding: 10px   ;
+}
+
+.cont_marco_int{
+    display: flex;
+    flex-direction:column;
+    background-color:gainsboro  ;
+    border-style: solid;
+    align-items: center;
+    margin: -5px 20px;  
+    width: 660px;
+    height: 350px;  
+    border-radius: 20px;
+    }
+
+.cont_IM{ /* aqui va la img del pokemon*/
+
+    width: 700px;
+    height: 400px;  
+    background-color:azure;
+    align-items: center;  
+
+}
+
+.cont_IB{
+    display: flex;
+    flex-direction: row;
+    width: 740px;
+    height: 300px;
+    margin-top: 5px;
+    border-radius: 30px;
+    border: solid 1px;
+    margin: 10px 5px 5px;
+}
+
+
+.cont_IBI{
+    display: flex;
+    flex-direction: column ;
+    background-color:black;
+    width: 246px;
+    justify-content:center;
+    border: solid 1px;
+    border-bottom-left-radius: 30px;
+}
+
+.c{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cc{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.ccc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.u{
+    width: 50px;
+    height: 55px;
+    background-color:black;
+    border-top: solid 5px;
+    border-left: solid 5px;
+    border-right: solid 5px;
+    border-bottom: none;
+    color: aliceblue;
+
+}
+
+.d{
+    width: 50px;
+    height: 55px;
+    background-color:black;
+    border-color: aliceblue;
+    color: aliceblue;
+    border-bottom: solid 5px;
+    border-left: solid 5px;
+    border-right: solid 5px;
+    border-top: none;
+}
+
+.lr{
+    width: 40px;
+    height: 20px;
+    background-color: black;
+    border: none;
+}
+.l{
+    width: 60px;
+    height: 50px;
+    background-color: black;
+    border-color: aliceblue;
+    color: aliceblue;
+    border-top: solid 5px;
+    border-left: solid 5px;
+    border-right:none;
+    border-bottom: solid 5px;
+}
+.r{
+    width: 60px;
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+    border-top: solid 5px;
+    border-left:none;
+    border-right: solid 5px;
+    border-bottom: solid 5px;
+}
+
+
+.cont_IBM{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-color: white 1px;
+    justify-content: space-around;
+    width: 246px;
+    justify-content: stretch;
+}
+
+.linea{
+width: 240px;
+height: 45px;
+border-radius: 10px;
+background-color:grey;
+margin-top: 10px;
+text-align: justify;
+}
+
+.linea p{
+    text-align: center;
+    font-weight: 800;
+    color: red;
+    vertical-align:text-top;
+}
+
+.espacio{
+    display: flex;
+    justify-content:center;
+    width: 235px;
+    height: 50px;
+    background-color: azure;
+    border-style: double;
+    margin-top: 10px;
+}
+
+.espacio button{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+.cont_IBD{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-color: white 1px;
+    justify-content: space-around;
+    width: 246px;
+    justify-content: stretch;
+    border-bottom-right-radius: 30px;
+    
+}
+
+
+
+.invisible{
+    width: 240px;
+    height: 45px;
+    background-color:black;
+    margin-top: 10px;
+    border: none;
+}
+.nintendo{
+    width: 240px;
+    height: 45px;
+    background-color:black;
+    margin-top: 10px;
+    font-size: large;
+    border: none;
+    color: red;
+}
+
+.espacio2{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 235px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.cuadro{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    margin-left: 15px;
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.espacio2 button{
+    width: 45px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius:60px;
+    background-color:red;
+    border-radius: 40px;
+    color: azure;
+}
+
+.cont_IBD .ayb p{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: large;
+    border: none;
+    color: red;
+}
+
+
+
+
+
+.contenedorD{
+    display: flex;
+    flex-direction: column;
+    background-color:gray;
+    width: 750px;
+    height: 820px;
+    border-radius: 30px;
+    text-align: center;
+    border-color: black;
+    border: solid;
+}
+.nom h1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h2{
+    
+    font-weight: bold;
+ 
+}
+.gral{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.contenedorD p{
+    font-size: larger;
+}
+
+.contenedorD h4{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.sym{
+    display: flex;
+    flex-direction:column;
+}
+
+.stat li{
+    list-style: none;
+    text-align: left;
+}
+.mov li{
+    list-style: none;
+    text-align: center;
+}
+
+.s0{
+    height: 25px;
+    width: 600px;
+}
+
